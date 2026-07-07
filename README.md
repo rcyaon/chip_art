@@ -9,5 +9,3 @@ It will create GDS/LEF files in `gds/` folder.
 `merge_gds.py`: Merges two gds files together. Helpful if you've already done your chip layout and want to merge the art and chip art together.
 
 `precheck_art.py`: Scans your source image for pixels that would diagonally touch corners on the same metal layer, a known cause of BEOL DRC failures.
-
-`run_drc.py`: Runs a KLayout batch DRC on the GDS output against the sky130 or gf180mcu deck and summarizes violations by rule.
